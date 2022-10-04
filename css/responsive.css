@@ -1,0 +1,836 @@
+/* extra small device */
+@media (min-width:320px) and (max-width:575px){
+    .title p {
+        width: auto;
+        padding: 10px;
+    }
+/* =================================================
+                navbar part start
+====================================================*/
+nav button i{
+    color: #fff;
+}
+nav ul{
+    background: #000;
+    text-align: center;
+}
+nav ul li::after{
+    display: none;
+}
+nav ul li {
+	margin-left: 0px;
+}
+/* =================================================
+                navbar part end
+====================================================*/
+
+/* =================================================
+                banner part start
+====================================================*/
+#banner_part .banner .overlay h3{
+    font-size: 20px;
+}
+#banner_part .banner .overlay h2{
+    font-size: 26px;
+}
+#banner_part .banner .overlay p {
+	width: auto;
+	margin: 0 auto;
+}
+#banner_part .banner .overlay {
+	padding: 100px 0;
+}
+#banner_part button i {
+	margin-top: 160px;
+}
+/* =================================================
+                banner part end
+====================================================*/
+/* =================================================
+                about part start
+====================================================*/
+#about_part .round {
+	display: none;
+}
+#about_part .item .shape {
+	display: none;
+}
+#about_part .item3 .shape {
+	display: none;
+}
+#about_part .item2 .shape {
+	display: none;
+}
+#about_part .item4 .shape {
+	display: none;
+}
+#about_part .item i {
+	display: none;
+}
+#about_part .item2 i {
+	display: none;
+}
+#about_part .item3 i {
+	display: none;
+}
+#about_part .item4 i {
+	display: none;
+}
+#about_part .item4 {
+	margin-left: 0;
+    margin-top: 10px;
+    text-align: center;
+}
+#about_part .item3 {
+	text-align: center;
+	margin-right: 0;
+}
+/* =================================================
+                about part end
+====================================================*/
+
+/* =================================================
+                portfolio part start
+====================================================*/
+#portfolio_part {
+	clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
+/* =================================================
+                portfolio part end
+====================================================*/
+/* =================================================
+                services part start
+====================================================*/
+#services_part .line {
+	display: none;
+}
+#services_part .services_slider .item{
+    flex-direction: column;
+}
+#services_part .services_slider .item .item_title {
+	width: 100%;
+	text-align: center;
+}
+#services_part .services_slider .item .item_img {
+	width: 100%;
+    margin: 20px 0;
+}
+#services_part .services_slider .item .item_img .round {
+	margin: 0 auto;
+}
+#services_part .services_slider .item .item_details {
+	width: 100%;
+}
+#services_part .services_slider .item .item_details p {
+	width: 100%;
+    text-align: center;
+}
+#services_part .services_slider .item_1{
+    flex-direction: column-reverse;
+}
+#services_part .services_slider .item .item_title h3 {
+	margin-top: 20px;
+}
+#services_part .services_slider .next {
+	bottom: -45px;
+}
+/* =================================================
+                services part end
+====================================================*/
+/* =================================================
+                testmonial part start
+====================================================*/
+#testmonial_part {
+	clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    margin-top: 90px;
+}
+#testmonial_part .overlay .left_line {
+	display: none;
+}
+#testmonial_part .overlay .img_slider{
+    position: relative;
+}
+#testmonial_part .overlay .img_slider .prev {
+	top: 51px;
+	left: 18px;
+	transform: translateX(0) rotate(-88deg);
+	z-index: 2;
+}
+#testmonial_part .overlay .img_slider .next {
+	bottom: 40px;
+	left: 84%;
+	transform: translateX(0) rotate(-88deg);
+}
+#testmonial_part .overlay .text_box .shape {
+	display: none;
+}
+#testmonial_part .overlay .text_box {
+	width: 100%;
+    height: 445px;
+}
+#testmonial_part .overlay .text_box .details_slider .text p {
+	width: auto;
+}
+#testmonial_part .overlay .text_box .details_slider .text .img {
+	margin-left: 40%;
+}
+/* =================================================
+                testmonial part end
+====================================================*/
+
+/* =================================================
+                priceing part start
+====================================================*/
+#pricing_part .price_item {
+	margin-bottom: 20px;
+}
+/* =================================================
+                priceing part end
+====================================================*/
+
+/* =================================================
+                counter part start
+====================================================*/
+#counter_part {
+	clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
+#counter_part .overlay .angle {
+	transform: none;
+}
+#counter_part .overlay .item {
+	margin-bottom: 10px;
+}
+#counter_part .overlay .item h3{
+	font-size: 18px;
+}
+#counter_part .overlay .item h5{
+	font-size: 14px;
+}
+/* =================================================
+                counter part end
+====================================================*/
+
+/* =================================================
+                team part start
+====================================================*/
+#team_part .member {
+	margin-bottom: 20px;
+}
+/* =================================================
+                team part end
+====================================================*/
+
+/* =================================================
+                sponsor part start
+====================================================*/
+#sponsor_part{
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
+.slick-slide img {
+	margin:0 auto;
+}
+#sponsor_part .angle {
+	transform: none;
+}
+/* =================================================
+                sponsor part end
+====================================================*/
+
+/* =================================================
+                logo part start
+====================================================*/
+footer .img {
+	transform: none;
+}
+footer .img img {
+	transform: none;
+}
+footer .contact_part .item:after{
+    width: 0;
+}
+footer .contact_part .item .text p{
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+/* =================================================
+                logo part end
+====================================================*/
+}
+/* small device */
+@media (min-width:576px) and (max-width:767px){
+    .title p {
+        width: auto;
+        padding: 10px;
+    }
+/* =================================================
+                navbar part start
+====================================================*/
+nav button i{
+    color: #fff;
+}
+nav ul{
+    background: #000;
+    text-align: center;
+}
+nav ul li::after{
+    display: none;
+}
+nav ul li {
+	margin-left: 0px;
+}
+/* =================================================
+                navbar part end
+====================================================*/
+
+/* =================================================
+                banner part start
+====================================================*/
+#banner_part .banner .overlay h3{
+    font-size: 20px;
+}
+#banner_part .banner .overlay h2{
+    font-size: 26px;
+}
+#banner_part .banner .overlay p {
+	width: auto;
+	margin: 0 auto;
+}
+#banner_part .banner .overlay {
+	padding: 100px 0;
+}
+#banner_part button i {
+	margin-top: 160px;
+}
+/* =================================================
+                banner part end
+====================================================*/
+/* =================================================
+                about part start
+====================================================*/
+#about_part .round {
+	display: none;
+}
+#about_part .item .shape {
+	display: none;
+}
+#about_part .item3 .shape {
+	display: none;
+}
+#about_part .item2 .shape {
+	display: none;
+}
+#about_part .item4 .shape {
+	display: none;
+}
+#about_part .item i {
+	display: none;
+}
+#about_part .item2 i {
+	display: none;
+}
+#about_part .item3 i {
+	display: none;
+}
+#about_part .item4 i {
+	display: none;
+}
+#about_part .item4 {
+	margin-left: 0;
+    margin-top: 10px;
+    text-align: center;
+}
+#about_part .item3 {
+	text-align: center;
+	margin-right: 0;
+}
+/* =================================================
+                about part end
+====================================================*/
+
+/* =================================================
+                portfolio part start
+====================================================*/
+#portfolio_part {
+	clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
+/* =================================================
+                portfolio part end
+====================================================*/
+/* =================================================
+                services part start
+====================================================*/
+#services_part .line {
+	display: none;
+}
+#services_part .services_slider .item{
+    flex-direction: column;
+}
+#services_part .services_slider .item .item_title {
+	width: 100%;
+	text-align: center;
+}
+#services_part .services_slider .item .item_img {
+	width: 100%;
+    margin: 20px 0;
+}
+#services_part .services_slider .item .item_img .round {
+	margin: 0 auto;
+}
+#services_part .services_slider .item .item_details {
+	width: 100%;
+}
+#services_part .services_slider .item .item_details p {
+	width: 100%;
+    text-align: center;
+}
+#services_part .services_slider .item_1{
+    flex-direction: column-reverse;
+}
+#services_part .services_slider .item .item_title h3 {
+	margin-top: 20px;
+}
+#services_part .services_slider .next {
+	bottom: -45px;
+}
+/* =================================================
+                services part end
+====================================================*/
+/* =================================================
+                testmonial part start
+====================================================*/
+#testmonial_part {
+	clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    margin-top: 90px;
+}
+#testmonial_part .overlay .left_line {
+	display: none;
+}
+#testmonial_part .overlay .img_slider{
+    position: relative;
+}
+#testmonial_part .overlay .img_slider .prev {
+	top: 51px;
+	left: 18px;
+	transform: translateX(0) rotate(-88deg);
+	z-index: 2;
+}
+#testmonial_part .overlay .img_slider .next {
+	bottom: 40px;
+	left: 84%;
+	transform: translateX(0) rotate(-88deg);
+}
+#testmonial_part .overlay .text_box .shape {
+	display: none;
+}
+#testmonial_part .overlay .text_box {
+	width: 100%;
+    height: 335px;
+}
+#testmonial_part .overlay .text_box .details_slider .text p {
+	width: auto;
+}
+#testmonial_part .overlay .text_box .details_slider .text .img {
+	margin-left: 66%;
+}
+/* =================================================
+                testmonial part end
+====================================================*/
+
+/* =================================================
+                priceing part start
+====================================================*/
+#pricing_part .price_item {
+	margin-bottom: 20px;
+}
+/* =================================================
+                priceing part end
+====================================================*/
+
+/* =================================================
+                counter part start
+====================================================*/
+#counter_part {
+	clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
+#counter_part .overlay .angle {
+	transform: none;
+}
+#counter_part .overlay .item {
+	margin-bottom: 10px;
+}
+#counter_part .overlay .item h3{
+	font-size: 18px;
+}
+#counter_part .overlay .item h5{
+	font-size: 14px;
+}
+/* =================================================
+                counter part end
+====================================================*/
+
+/* =================================================
+                team part start
+====================================================*/
+#team_part .member {
+	margin-bottom: 20px;
+}
+/* =================================================
+                team part end
+====================================================*/
+
+/* =================================================
+                sponsor part start
+====================================================*/
+#sponsor_part{
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
+.slick-slide img {
+	margin:0 auto;
+}
+#sponsor_part .angle {
+	transform: none;
+}
+/* =================================================
+                sponsor part end
+====================================================*/
+
+/* =================================================
+                logo part start
+====================================================*/
+footer .img {
+	transform: none;
+}
+footer .img img {
+	transform: none;
+}
+footer .contact_part .item:after{
+    width: 0;
+}
+footer .contact_part .item .text p{
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+/* =================================================
+                logo part end
+====================================================*/
+}
+
+/* medium device */
+@media (min-width:768px) and (max-width:991px){
+    .title p {
+        width: auto;
+        padding: 10px;
+    }
+/* =================================================
+                navbar part start
+====================================================*/
+nav button i{
+    color: #fff;
+}
+nav ul{
+    background: #000;
+    text-align: center;
+}
+nav ul li::after{
+    display: none;
+}
+nav ul li {
+	margin-left: 0px;
+}
+/* =================================================
+                navbar part end
+====================================================*/
+
+/* =================================================
+                banner part start
+====================================================*/
+#banner_part .banner .overlay h3{
+    font-size: 30px;
+}
+#banner_part .banner .overlay h2{
+    font-size: 40px;
+}
+#banner_part .banner .overlay p {
+	width: 490px;
+	margin: 0 auto;
+}
+#banner_part .banner .overlay {
+	padding: 100px 0;
+}
+#banner_part button i {
+	margin-top: 160px;
+}
+/* =================================================
+                banner part end
+====================================================*/
+/* =================================================
+                about part start
+====================================================*/
+#about_part .round {
+	display: none;
+}
+#about_part .item .shape {
+	display: none;
+}
+#about_part .item3 .shape {
+	display: none;
+}
+#about_part .item2 .shape {
+	display: none;
+}
+#about_part .item4 .shape {
+	display: none;
+}
+#about_part .item i {
+	display: none;
+}
+#about_part .item2 i {
+	display: none;
+}
+#about_part .item3 i {
+	display: none;
+}
+#about_part .item4 i {
+	display: none;
+}
+#about_part .item4 {
+	margin-left: 0;
+    margin-top: 10px;
+    text-align: center;
+}
+#about_part .item3 {
+	text-align: center;
+	margin-right: 0;
+}
+/* =================================================
+                about part end
+====================================================*/
+
+/* =================================================
+                portfolio part start
+====================================================*/
+#portfolio_part {
+	clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
+/* =================================================
+                portfolio part end
+====================================================*/
+/* =================================================
+                services part start
+====================================================*/
+#services_part .line {
+	display: none;
+}
+#services_part .services_slider .item{
+    flex-direction: column;
+}
+#services_part .services_slider .item .item_title {
+	width: 100%;
+	text-align: center;
+}
+#services_part .services_slider .item .item_img {
+	width: 100%;
+    margin: 20px 0;
+}
+#services_part .services_slider .item .item_img .round {
+	margin: 0 auto;
+}
+#services_part .services_slider .item .item_details {
+	width: 100%;
+}
+#services_part .services_slider .item .item_details p {
+	width: 100%;
+    text-align: center;
+}
+#services_part .services_slider .item_1{
+    flex-direction: column-reverse;
+}
+#services_part .services_slider .item .item_title h3 {
+	margin-top: 20px;
+}
+#services_part .services_slider .next {
+	bottom: -45px;
+}
+/* =================================================
+                services part end
+====================================================*/
+/* =================================================
+                testmonial part start
+====================================================*/
+#testmonial_part {
+	clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    margin-top: 90px;
+}
+#testmonial_part .overlay .left_line {
+	display: none;
+}
+#testmonial_part .overlay .img_slider{
+    position: relative;
+}
+#testmonial_part .overlay .img_slider .prev {
+	top: 51px;
+	left: 18px;
+	transform: translateX(0) rotate(-88deg);
+	z-index: 2;
+}
+#testmonial_part .overlay .img_slider .next {
+	bottom: 40px;
+	left: 84%;
+	transform: translateX(0) rotate(-88deg);
+}
+#testmonial_part .overlay .text_box .shape {
+	display: none;
+}
+#testmonial_part .overlay .text_box {
+	width: 100%;
+    height: 335px;
+}
+#testmonial_part .overlay .text_box .details_slider .text p {
+	width: auto;
+}
+#testmonial_part .overlay .text_box .details_slider .text .img {
+	margin-left: 66%;
+}
+/* =================================================
+                testmonial part end
+====================================================*/
+
+/* =================================================
+                priceing part start
+====================================================*/
+#pricing_part .price_item {
+	margin-bottom: 20px;
+}
+/* =================================================
+                priceing part end
+====================================================*/
+
+/* =================================================
+                counter part start
+====================================================*/
+#counter_part {
+	clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
+#counter_part .overlay .angle {
+	transform: none;
+}
+#counter_part .overlay .item {
+	margin-bottom: 10px;
+}
+#counter_part .overlay .item h3{
+	font-size: 18px;
+}
+#counter_part .overlay .item h5{
+	font-size: 14px;
+}
+/* =================================================
+                counter part end
+====================================================*/
+
+/* =================================================
+                team part start
+====================================================*/
+#team_part .member {
+	margin-bottom: 20px;
+}
+/* =================================================
+                team part end
+====================================================*/
+
+/* =================================================
+                sponsor part start
+====================================================*/
+#sponsor_part{
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
+.slick-slide img {
+	margin:0 auto;
+}
+#sponsor_part .angle {
+	transform: none;
+}
+/* =================================================
+                sponsor part end
+====================================================*/
+
+/* =================================================
+                logo part start
+====================================================*/
+footer .img {
+	transform: none;
+}
+footer .img img {
+	transform: none;
+}
+footer .contact_part .item:after{
+    width: 0;
+}
+footer .contact_part .item .text p{
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+/* =================================================
+                logo part end
+====================================================*/
+}
+
+/* large device */
+@media (min-width:992px) and (max-width:1199px){
+ /* =================================================
+                about part start
+====================================================*/
+#about_part .round {
+	width: 300px;
+	height: 300px;
+}
+#about_part .round .img_round {
+	width: 280px;
+	height: 280px;
+}
+#services_part .services_slider .item .item_details p {
+	width: 332px;
+}
+#testmonial_part .overlay .text_box {
+	width: 766px;
+}
+/* =================================================
+                about part end
+====================================================*/
+
+/* =================================================
+                sponser part start
+====================================================*/
+.slick-slide img {
+	max-width: 100%;
+}
+/* =================================================
+                sponser part end
+====================================================*/
+
+/* =================================================
+                team part start
+====================================================*/
+#team_part .member .media_icon i {
+	height: 35px;
+	width: 35px;
+	line-height: 35px;
+}
+/* =================================================
+                team part end
+====================================================*/
+
+/* =================================================
+                footer part start
+====================================================*/
+
+footer .contact_part .item .text p {
+	font-size: 16px;
+	width: 224px;
+}
+
+/* =================================================
+                footer part end
+====================================================*/
+
+
+}
